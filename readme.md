@@ -134,5 +134,18 @@ Para estes casos, é interessando utilizar o comando rebase
 O rebase reorganiza os commits, mas não gera um novo commit quando faz o merge.
 
 
+## Criando chave pública para Github
+
+O github sempre pede autenticação quando se deseja enviar arquivos do repositório local para o repositório do github.
+
+Para não ter de digitar a senha a cada 'push', deve configurar um chave pública e uma chave privada, que serão responsáveis por realizar uma autenticação mais prática e mais segura que a autenticação https
+
+O comando para gerar a chave é ssh-keygen
+
+Para saber se a chave foi gerada, pode-se entrar no diretório .ssh da pasta home
+
+Neste diretórios,  as chaves possuem o nome id_rsa (privada) e id_rsa.pub(pública)
+
+No github, vai em account settings, e cadastra a chave pública do sistema
 
 
