@@ -174,5 +174,11 @@ Para criar um branch local que seja semelhante a um branch remoto se utiliza
 git checkout -b <branch> origin/<branch>
 
 
+## Push e Pull com novo branch
+
+O comando push empurra atualizações para o servidor
+O comando pull pega atualiações do servidor
+
+
 
 
