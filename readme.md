@@ -83,4 +83,19 @@ Para que estes arquivos não entrem em controle de versão, basta adicioná-los 
 
 * Para voltar um arquivo no estágio 2: ```$ git reset HEAD <file>```
 
+## Voltando versões
+
+A forma mais simples é com o git checkout
+O git checkout é dado com o hash que identifica um commit.
+
+Outra forma é o git reset HEAD~N
+Onde N é o número de commits que se deseja voltar
+
+Outra forma com o reset HEAD é git reset HEAD~1 --soft
+remove o arquivo apenas do controle do git, mas mantém suas modificações
+
+Já o git reset HEAD~N --hard, além de remomer os arquivos do commit, ele ainda remove as alterações do arquivo.
+
+
+
 
