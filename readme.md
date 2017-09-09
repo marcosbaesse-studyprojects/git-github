@@ -165,6 +165,14 @@ Basicamente o comando é git push origin master
 
 No comando git push origin <branch> especifica a branch desejada a ser criada no servidor e que irá receber o push
 
+## Fazendo clone
+
+O clone serve para se baixar um repositório remoto para o computador local.
+
+COm o git branch -a pode-se visualizar os branchs locais e remotos
+Para criar um branch local que seja semelhante a um branch remoto se utiliza
+git checkout -b <branch> origin/<branch>
+
 
 
 
