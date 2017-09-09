@@ -45,4 +45,18 @@ São os arquivos que fazem parte do controle de versão. Os arquivos são adicio
 Através do comando ```$ git log ``` é possível visualizar o histórico do controle de versão
 
 
+## Realizando o primeiro commit
 
+### Adicionando arquivos
+
+O(s) parâmetro(s) do ```$ git add``` é útil para se especificar quais arquivos devem entrar no segundo estágio.
+Em situações onde tenha de adicionar todos, o seguinte comando é indicado ```$ git add .```
+
+Após o git add, há diversas formas de se realizar o commit, segue alguns exemplos:
+* git commit -m 'descricao'
+* git commit
+* git commit -a
+
+O primeiro método commit é indicado para situações em que há pouco a ser descrito acerca do commit.
+Já o segundo método é muito bom para se 
+descrever várias mudanças em um mesmo commit.
