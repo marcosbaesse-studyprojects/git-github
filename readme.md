@@ -188,6 +188,14 @@ Este repositório é apenas um repositório de serviço, não de trabalho
 
 os comando são executados da mesma forma que no github. A diferença é que assim, vc informa o enderço e a pasta do projeto
 
+## Git hook
 
+Um exemplo do git hook é para que os pushs sejam enviados ao site automaticamente
 
+dentro do repositório bare, tem uma pasta hooks, com diversos enventos
+
+Tem um arquivo chamado post-receive, que deve conter o seguinte código:
+
+#!/bin/sh
+GIT\_WORK\_TREE=/Users/wesley/gitCode/meusite.com.br git checkout -f
 
