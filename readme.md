@@ -120,4 +120,19 @@ Tudo que é criado em um branch não é visível pelos demais branchs. O demais 
 É interessante se criar branchs sempre que for implementar uma funcionalidade ou atender á uma ussue (tarefa/problema)
 
 
+## Merge e Rebase
+
+Merge é a ação de mesclar branchs
+
+O comando para se mesclar branchs é git merge <branch>. Através dele, a branch atual é mesclada (recebe as mudanças) da branch informada
+
+O merge gera um commit que registra aquele merge.
+Como nem todas as branchs devem ser compartilhadas entre o time, este commit pode não ser relevante.
+
+Para estes casos, é interessando utilizar o comando rebase
+
+O rebase reorganiza os commits, mas não gera um novo commit quando faz o merge.
+
+
+
 
