@@ -180,5 +180,14 @@ O comando push empurra atualizações para o servidor
 O comando pull pega atualiações do servidor
 
 
+## Criar um repositrório remoto em máquina local
+
+Esse repositório é criado através do comando git init --bare
+
+Este repositório é apenas um repositório de serviço, não de trabalho
+
+os comando são executados da mesma forma que no github. A diferença é que assim, vc informa o enderço e a pasta do projeto
+
+
 
 
