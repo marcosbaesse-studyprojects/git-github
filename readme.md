@@ -60,3 +60,16 @@ Após o git add, há diversas formas de se realizar o commit, segue alguns exemp
 O primeiro método commit é indicado para situações em que há pouco a ser descrito acerca do commit.
 Já o segundo método é muito bom para se 
 descrever várias mudanças em um mesmo commit.
+
+## Verificando Log
+
+O Log (registro) de commits é visualizado através do comando ```$ git log ```
+
+Ele possui diversas opções:
+* -p: Mostra as diferenças (em código) entre os arquivos antes e depois do commit
+* -p -2: Mostra as diferenças dos dois últimos commits
+* --stat: Mostra estatísticas dos commits. Um resumo da quantidade de alterações nos arquivos
+* --pretty-oneline: Mostra a formatação do commit em uma linha.
+* --pretty-{outras-opções}: Existem muitas formatações disponíveis para o --pretty.
+* --since=X.days: Mostra os commits desde X dias/semanas/meses
+
