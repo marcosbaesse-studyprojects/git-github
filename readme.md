@@ -73,3 +73,10 @@ Ele possui diversas opções:
 * --pretty-{outras-opções}: Existem muitas formatações disponíveis para o --pretty.
 * --since=X.days: Mostra os commits desde X dias/semanas/meses
 
+## Ignorando arquivos
+Existem arquivos pessoais e que não são interessantes sendo controlados pelo CV do Git.
+(arquivos com senhas pessoais, configurações de IDEs e Editores, ...)
+
+Para que estes arquivos não entrem em controle de versão, basta adicioná-los a um arquivo '.gitignore' na raiz do projeto
+
+
