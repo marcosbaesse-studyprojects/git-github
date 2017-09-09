@@ -149,3 +149,18 @@ Neste diretórios,  as chaves possuem o nome id_rsa (privada) e id_rsa.pub(públ
 No github, vai em account settings, e cadastra a chave pública do sistema
 
 
+## Primeiro push
+
+A tradução de push é 'empurrar'. No git, push tem o sentido de empurrar/enviar um repositório local para um repositório remoto.
+
+Para que o git saiba qual o reposotório remote, deve-se utilizar o git remote
+
+Um repositório local pode contrubuir para vários repositórios remotos. Mas o repositório padrão, normalmente e por convensão, é o origin. Os principais psuhes devem ser enviados ao origin.
+
+O git remote é o comando para gerenciar os repositórios remotos.
+
+Basicamente o comando é git push origin master
+
+
+
+
