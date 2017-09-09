@@ -161,6 +161,10 @@ O git remote é o comando para gerenciar os repositórios remotos.
 
 Basicamente o comando é git push origin master
 
+## Dando push em outro branch
+
+No comando git push origin <branch> especifica a branch desejada a ser criada no servidor e que irá receber o push
+
 
 
 
