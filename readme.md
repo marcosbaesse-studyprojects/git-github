@@ -96,6 +96,15 @@ remove o arquivo apenas do controle do git, mas mantém suas modificações
 
 Já o git reset HEAD~N --hard, além de remomer os arquivos do commit, ele ainda remove as alterações do arquivo.
 
+## Falando sobre branches
+ 
+O git trabalha com snapshots.
+Ele usa a linha do tempo principal (master) para controlar as versões.
 
+As branchs são linhas do tempo alternativas, utilizadas para o desenvolvimento de partes de um projeto que ainda não foram aprovadas para integrarem à obra principal. 
+
+Essas branchs são integradas ao projeto principal através de um merge. Após integradas, normalmente, não existe necessidade de mantê-las. Visto que elas já fazem parte do projeto principal
+
+	
 
 
