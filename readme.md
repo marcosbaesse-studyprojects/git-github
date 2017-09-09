@@ -79,4 +79,8 @@ Existem arquivos pessoais e que não são interessantes sendo controlados pelo C
 
 Para que estes arquivos não entrem em controle de versão, basta adicioná-los a um arquivo '.gitignore' na raiz do projeto
 
+## Brincando com fluxo de commits
+
+* Para voltar um arquivo no estágio 2: ```$ git reset HEAD <file>```
+
 
