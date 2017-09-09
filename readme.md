@@ -105,6 +105,19 @@ As branchs são linhas do tempo alternativas, utilizadas para o desenvolvimento 
 
 Essas branchs são integradas ao projeto principal através de um merge. Após integradas, normalmente, não existe necessidade de mantê-las. Visto que elas já fazem parte do projeto principal
 
-	
+
+## Criando o primeiro branch
+
+O comando git checkout é utilizado para se criar branchs
+O parâmetro -b indica que um novo branch deve ser criado
+
+Se não passar parâmetro -b, significa que se está trocando de branch
+
+O comando git branch mostra as branchs do repositório
+
+Tudo que é criado em um branch não é visível pelos demais branchs. O demais branchs só podem visualizar tais mudanças quando realizam um merge com o branch necessário.
+
+É interessante se criar branchs sempre que for implementar uma funcionalidade ou atender á uma ussue (tarefa/problema)
+
 
 
